@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Summary - Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-left">
+          <h1>Coffee Shop</h1>
+        </div>
+        <div class="navbar-right">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="order.html">Order</a>
+          <a href="summary.html">Summary</a>
+          <a href="signup.html">Sign Up</a>
+          <span id="greeting"></span>
+          <span id="current-time"></span>
+          <button id="logout-btn">Logout</button>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <h2>Summary</h2>
+      <div id="order-summary">
+        <h3>Past Orders</h3>
+        <div id="order-list"></div>
+        <p id="total-spent"></p>
+      </div>
+      <button id="back-btn">Back to Dashboard</button>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <span>&copy; 2023 Coffee Shop</span>
+        <div class="dropdown">
+          <button class="dropdown-btn">Follow Us</button>
+          <div class="dropdown-content">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://instagram.com">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
